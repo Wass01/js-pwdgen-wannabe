@@ -1,0 +1,30 @@
+body{
+  background-color: #abcdef;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+.container{
+  background-color: #ffffff;
+  padding: 3%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+p:nth-child(odd){
+  color: #0033ff;
+  font-size: 24px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#password, #eta{
+  text-decoration: underline;
+  color: #294063;
+}

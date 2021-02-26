@@ -10,3 +10,8 @@ console.log(colorePreferito);
 var password = nome + cognome + colorePreferito + "21";
 document.getElementById('password').innerHTML = password;
 console.log(password);
+
+var eta = prompt("i tuoi anni");
+var dataNascita = 2021 - eta;
+document.getElementById('eta').innerHTML = dataNascita;
+console.log(dataNascita);
